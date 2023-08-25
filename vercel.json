@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "main.py",
+        "use": "@now/python",
+        "config": {
+          "maxLambdaSize": "50mb",
+          "pythonVersion": "3.9"
+        }
+      }
+    ]
+  }
+  
